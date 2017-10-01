@@ -1,0 +1,33 @@
+{
+  "name": "gulp-hammerapp",
+  "version": "1.0.0",
+  "keywords": [
+    "hammerapp"
+  ],
+  "description": "the unoffical hamperappformac compiler implementer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageFormats": ["json", "html"]
+  },
+  "author": "JamLee",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "detect-file": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-util": "^3.0.8",
+    "is-glob": "^4.0.0",
+    "micromatch": "^3.1.0",
+    "replacestream": "^4.0.3",
+    "resolve-dir": "^1.0.1",
+    "sprintf": "^0.1.5",
+    "through2": "^2.0.3"
+  }
+}
