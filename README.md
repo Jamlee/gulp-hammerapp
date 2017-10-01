@@ -1,5 +1,7 @@
 ## gulp-hammerapp
 
+![status](https://travis-ci.org/Jamlee/gulp-hammerapp.svg?branch=master)
+
 what it is:
 
 - engine for template engine
@@ -19,5 +21,5 @@ what it is:
     .pipe(gulpIgnore.exclude('includes/**'))
     .pipe(htmlbeautify(options))
     .pipe(gulp.dest('dist'));
-    
+
 ````
